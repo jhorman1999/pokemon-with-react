@@ -1,14 +1,14 @@
 .targetaPokemon{
     margin: 0 auto;
+    
     background: var(--card-color);
     color:rgb(255, 255, 255);
     width: 50%;
     max-width: 400px;
     padding: 2rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
-    border: 1px solid gray;
+    border: 1px solid rgb(212, 212, 212);
     border-radius: 20px; 
-    
 }
 
 .datos{
@@ -18,4 +18,42 @@
 .imagenLista{
     width: 80%;
     height: 80%;
+}
+
+
+div.Grass {
+    background: rgb(58, 199, 58);
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    border-radius: 20px; 
+    margin: 0 auto;
+}
+
+div.Poison {
+    background: blueviolet;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 20px; 
+    margin: 0 auto;
+}
+
+div.Fire {
+    background: rgb(241, 117, 59);
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    border-radius: 20px; 
+    margin: 0 auto;
+}
+
+div.Water {
+    background: rgb(116, 116, 247);
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    border-radius: 20px; 
+    margin: 0 auto;
 }
