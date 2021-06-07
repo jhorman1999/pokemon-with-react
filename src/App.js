@@ -2,12 +2,12 @@
 import './App.css';
 
 
-import Pokemos from './components/pagePrincipal';
+import Pokemons from './components/pagePrincipal';
 
 function App() {
   return (
     <div className="App">
-     <Pokemos/>
+     <Pokemons/>
     </div>
   );
 }

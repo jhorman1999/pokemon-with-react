@@ -1,0 +1,7 @@
+div.cards {
+    margin: 80px auto;
+    display: grid;
+    position:flex;
+
+    grid-template-columns: 1fr 1fr;
+  }

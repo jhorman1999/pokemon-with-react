@@ -1,15 +1,16 @@
-import Papa from 'papaparse';
-import datos from '../data/data.json'
+import TargetasPokemon from './listaPokemons'
+import './pagePrincipal.css'
 
-const Pokemos = () => {
+const Pokemons = () => {
+
     
-    console.log(datos)
     return (
-        <div>
-        <h1>hola</h1>
+        <div className="cards">
+            {TargetasPokemon}
+            
         </div>
     )
 
 }
 
-export default (Pokemos)
+export default (Pokemons)
