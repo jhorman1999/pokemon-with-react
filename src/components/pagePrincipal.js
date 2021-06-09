@@ -6,8 +6,7 @@ const Pokemons = () => {
     
     return (
         <div className="cards">
-            {TargetasPokemon}
-            
+            {TargetasPokemon}  
         </div>
     )
 

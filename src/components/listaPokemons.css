@@ -5,7 +5,8 @@
     color:rgb(255, 255, 255);
     width: 50%;
     max-width: 400px;
-    padding: 3rem;
+    padding: 1rem;
+    padding-bottom: 3.5rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border: 1px solid rgb(212, 212, 212);
     border-radius: 20px; 
@@ -20,7 +21,11 @@
     height: 70%;
 }
 
-
+div.type{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875em;
+}
 div.Grass {
     background: rgb(58, 199, 58);
     color: white;
